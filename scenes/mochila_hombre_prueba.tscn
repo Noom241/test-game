@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://dnxpefpjwqox8"]
+
+[ext_resource type="Texture2D" uid="uid://cd1nocq6r36yt" path="res://assets/mochila hombre.png" id="1_23kmj"]
+[ext_resource type="Script" uid="uid://dlwyw86135b6u" path="res://scripts/button_mochila_hombre_prueba.gd" id="2_v85r2"]
+
+[node name="Node2D" type="Node2D" unique_id=1407682977]
+script = ExtResource("2_v85r2")
+
+[node name="MochilaHombre" type="Sprite2D" parent="." unique_id=1762682862]
+position = Vector2(122, 180)
+texture = ExtResource("1_23kmj")
+hframes = 18
+
+[node name="Button" type="Button" parent="." unique_id=1853658908]
+offset_left = 87.0
+offset_top = 33.0
+offset_right = 127.0
+offset_bottom = 99.0
